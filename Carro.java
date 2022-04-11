@@ -18,7 +18,11 @@ public class Carro {
 
     }
 
-    public Carro(String motor, String modelo, int rodas, double preco, String tracao){
+    public Carro(String motor, String modelo, String tracao){
+
+        this.motor=motor;
+        this.modelo=modelo;
+        this.tracao=tracao;
 
     }
     public void dadosVeiculo(){
